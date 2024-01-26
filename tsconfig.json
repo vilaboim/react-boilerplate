@@ -17,7 +17,9 @@
 
     /* Aliases */
     "paths": {
-      "@/*": ["./src/*", "./dist/*"],
+      "@/*": ["./src/*"],
+      "@services": ["./src/shared/services"],
+      "@helpers": ["./src/shared/helpers"],
     },
 
     /* Linting */
