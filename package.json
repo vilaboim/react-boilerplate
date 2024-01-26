@@ -29,11 +29,13 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.4",
     "pretty-quick": "^4.0.0",
+    "tsc-files": "^1.1.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
+      "tsc-files --noEmit",
       "pretty-quick",
       "eslint"
     ]
